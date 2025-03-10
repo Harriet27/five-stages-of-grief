@@ -51,7 +51,10 @@ export default function HomePage() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 mt-4">
+      <main
+        // className="container mx-auto px-4 mt-4"
+        className="container mx-auto px-4 pb-8 mt-4"
+      >
         <div className="flex flex-col md:flex-row rounded-xl overflow-x-scroll">
           {/* Boy Character */}
           <CharacterDisplay
