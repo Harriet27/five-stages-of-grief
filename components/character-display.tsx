@@ -33,15 +33,19 @@ export default function CharacterDisplay({ character, data, isSelected, onSelect
       </div>
 
       {isSelected && (
-        <div className="mt-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-emerald-700 mb-4">{data.name}</h1>
-          <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto">{data.description}</p>
-
-          <h2 className="text-lg md:text-xl font-medium text-gray-700 mb-4">Some common issues:</h2>
-
+        <div className="mt-8 px-6 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold text-emerald-700 mb-4">
+            {data.name}
+          </h1>
+          <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto">
+            {data.description}
+          </p>
+          <h2 className="text-lg md:text-xl font-medium text-gray-700 mb-4">
+            Some common issues:
+          </h2>
           <div className="flex flex-wrap justify-center gap-4">
             {data.issues.map((issue, index) => (
-              <div key={index} className="flex flex-col items-center">
+              <div key={index} className="flex flex-col items-center min-w-[5.5rem]">
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-emerald-600 rounded-full flex items-center justify-center mb-2">
                   <Image
                     src={issue.icon || "/placeholder.svg"}
@@ -51,7 +55,9 @@ export default function CharacterDisplay({ character, data, isSelected, onSelect
                     className="rounded-full"
                   />
                 </div>
-                <span className="text-xs md:text-sm text-gray-600">{issue.name}</span>
+                <span className="text-xs md:text-sm text-gray-600">
+                  {issue.name}
+                </span>
               </div>
             ))}
           </div>

@@ -56,38 +56,30 @@ export default function HomePage() {
         className="container mx-auto px-4 pb-8 mt-4"
       >
         <div className="flex flex-col md:flex-row rounded-xl overflow-x-scroll">
-          {/* Boy Character */}
           <CharacterDisplay
             character="boy"
             data={characterData.boy}
             isSelected={selectedCharacter === "boy"}
             onSelect={() => setSelectedCharacter(selectedCharacter === "boy" ? null : "boy")}
           />
-
-          {/* Girl Character */}
           <CharacterDisplay
             character="girl"
             data={characterData.girl}
             isSelected={selectedCharacter === "girl"}
             onSelect={() => setSelectedCharacter(selectedCharacter === "girl" ? null : "girl")}
           />
-          {/* Boy Character */}
           <CharacterDisplay
             character="boy"
             data={characterData.boy}
             isSelected={selectedCharacter === "boy"}
             onSelect={() => setSelectedCharacter(selectedCharacter === "boy" ? null : "boy")}
           />
-
-          {/* Girl Character */}
           <CharacterDisplay
             character="girl"
             data={characterData.girl}
             isSelected={selectedCharacter === "girl"}
             onSelect={() => setSelectedCharacter(selectedCharacter === "girl" ? null : "girl")}
           />
-
-          {/* Girl Character */}
           <CharacterDisplay
             character="girl"
             data={characterData.girl}
