@@ -1,0 +1,54 @@
+{
+  "boy": {
+    "name": "BOY",
+    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "image": "/bargaining.png?height=1000&width=800",
+    "backgroundClass": "bg-emerald-200",
+    "textClass": "text-emerald-700",
+    "character": "男生",
+    "chineseCharacters": {
+      "top": "男",
+      "bottom": "生"
+    },
+    "issues": [
+      {
+        "name": "Headache",
+        "icon": "/bargaining.png?height=40&width=40"
+      },
+      {
+        "name": "Insomnia",
+        "icon": "/bargaining.png?height=40&width=40"
+      },
+      {
+        "name": "Common Cold",
+        "icon": "/bargaining.png?height=40&width=40"
+      }
+    ]
+  },
+  "girl": {
+    "name": "GIRL",
+    "description": "In Chinese Traditional Medicine, women are celebrated as bearers of nurturing Yin energy, representing the essence of creation, intuition, and the cyclical nature of life's journey.",
+    "image": "/placeholder.svg?height=1000&width=800",
+    "backgroundClass": "bg-amber-100",
+    "textClass": "text-emerald-700",
+    "character": "女生",
+    "chineseCharacters": {
+      "top": "女",
+      "bottom": "生"
+    },
+    "issues": [
+      {
+        "name": "Menstrual Pain",
+        "icon": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "name": "Fatigue",
+        "icon": "/placeholder.svg?height=40&width=40"
+      },
+      {
+        "name": "Skin Concerns",
+        "icon": "/placeholder.svg?height=40&width=40"
+      }
+    ]
+  }
+}
