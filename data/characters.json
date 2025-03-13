@@ -1,7 +1,7 @@
 {
   "denial": {
     "name": "Denial",
-    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "description": "This initial stage involves struggling to accept the reality of a loss, often characterized by numbness or disbelief.",
     "image": "/denial.png?height=1000&width=800",
     "backgroundColor": "rgb(148 163 184 / var(--tw-bg-opacity, 0.65))",
     "textClass": "text-emerald-700",
@@ -27,7 +27,7 @@
   },
   "anger": {
     "name": "Anger",
-    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "description": "As the reality of the loss sets in, anger may emerge, directed at oneself, others, or even the deceased.",
     "image": "/acceptance.png?height=1000&width=800",
     "backgroundColor": "rgb(52 211 153 / var(--tw-bg-opacity, 0.65))",
     "textClass": "text-emerald-700",
@@ -53,7 +53,7 @@
   },
   "bargaining": {
     "name": "Bargaining",
-    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "description": "In this stage, individuals may try to negotiate or make deals with a higher power or fate to undo the loss.",
     "image": "/bargaining.png?height=1000&width=800",
     "backgroundColor": "rgb(253 186 116 / var(--tw-bg-opacity, 0.65))",
     "textClass": "text-emerald-700",
@@ -79,7 +79,7 @@
   },
   "depression": {
     "name": "Depression",
-    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "description": "This stage involves deep sadness, despair, and a sense of hopelessness as the reality of the loss sinks in.",
     "image": "/depreso.png?height=1000&width=800",
     "backgroundColor": "rgb(30 64 175 / var(--tw-bg-opacity, 0.65))",
     "textClass": "text-emerald-700",
@@ -105,7 +105,7 @@
   },
   "acceptance": {
     "name": "Acceptance",
-    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "description": "While not necessarily a state of happiness, acceptance marks a stage where individuals begin to come to terms with the loss and find a way to move forward.",
     "image": "/acceptance.png?height=1000&width=800",
     "backgroundColor": "rgb(52 211 153 / var(--tw-bg-opacity, 0.65))",
     "textClass": "text-emerald-700",

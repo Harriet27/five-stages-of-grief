@@ -14,9 +14,11 @@ export default function CharacterDisplay({ character, data, isSelected, onSelect
       style={{
         backgroundColor: data.backgroundColor,
       }}
-      className={`w-full md:w-1/2 py-8 relative min-h-[500px] flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
-        // isSelected ? "md:w-full" : ""
-        isSelected ? "md:w-[70%]" : ""
+      // className={`w-full md:w-1/2 py-8 relative min-h-[500px] flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
+      //   isSelected ? "md:w-full" : ""
+      // }`}
+      className={`w-full md:w-1/2 py-8 relative min-h-[400px] rounded-xl flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
+        isSelected ? "md:w-[70%]" : "h-fit"
       }`}
     >
       <div
