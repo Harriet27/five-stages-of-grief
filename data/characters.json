@@ -1,9 +1,61 @@
 {
-  "boy": {
-    "name": "BOY",
+  "denial": {
+    "name": "Denial",
+    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "image": "/denial.png?height=1000&width=800",
+    "backgroundClass": "rgb(148 163 184 / var(--tw-bg-opacity, 1))",
+    "textClass": "text-emerald-700",
+    "character": "男生",
+    "chineseCharacters": {
+      "top": "男",
+      "bottom": "生"
+    },
+    "issues": [
+      {
+        "name": "Headache",
+        "icon": "/denial.png?height=40&width=40"
+      },
+      {
+        "name": "Insomnia",
+        "icon": "/denial.png?height=40&width=40"
+      },
+      {
+        "name": "Common Cold",
+        "icon": "/denial.png?height=40&width=40"
+      }
+    ]
+  },
+  "anger": {
+    "name": "Anger",
+    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "image": "/acceptance.png?height=1000&width=800",
+    "backgroundClass": "rgb(52 211 153 / var(--tw-bg-opacity, 1))",
+    "textClass": "text-emerald-700",
+    "character": "男生",
+    "chineseCharacters": {
+      "top": "男",
+      "bottom": "生"
+    },
+    "issues": [
+      {
+        "name": "Headache",
+        "icon": "/acceptance.png?height=40&width=40"
+      },
+      {
+        "name": "Insomnia",
+        "icon": "/acceptance.png?height=40&width=40"
+      },
+      {
+        "name": "Common Cold",
+        "icon": "/acceptance.png?height=40&width=40"
+      }
+    ]
+  },
+  "bargaining": {
+    "name": "Bargaining",
     "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
     "image": "/bargaining.png?height=1000&width=800",
-    "backgroundClass": "bg-emerald-200",
+    "backgroundClass": "rgb(253 186 116 / var(--tw-bg-opacity, 1))",
     "textClass": "text-emerald-700",
     "character": "男生",
     "chineseCharacters": {
@@ -25,29 +77,55 @@
       }
     ]
   },
-  "girl": {
-    "name": "GIRL",
-    "description": "In Chinese Traditional Medicine, women are celebrated as bearers of nurturing Yin energy, representing the essence of creation, intuition, and the cyclical nature of life's journey.",
-    "image": "/placeholder.svg?height=1000&width=800",
-    "backgroundClass": "bg-amber-100",
+  "depression": {
+    "name": "Depression",
+    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "image": "/depreso.png?height=1000&width=800",
+    "backgroundClass": "rgb(30 64 175 / var(--tw-bg-opacity, 1))",
     "textClass": "text-emerald-700",
-    "character": "女生",
+    "character": "男生",
     "chineseCharacters": {
-      "top": "女",
+      "top": "男",
       "bottom": "生"
     },
     "issues": [
       {
-        "name": "Menstrual Pain",
-        "icon": "/placeholder.svg?height=40&width=40"
+        "name": "Headache",
+        "icon": "/depreso.png?height=40&width=40"
       },
       {
-        "name": "Fatigue",
-        "icon": "/placeholder.svg?height=40&width=40"
+        "name": "Insomnia",
+        "icon": "/depreso.png?height=40&width=40"
       },
       {
-        "name": "Skin Concerns",
-        "icon": "/placeholder.svg?height=40&width=40"
+        "name": "Common Cold",
+        "icon": "/depreso.png?height=40&width=40"
+      }
+    ]
+  },
+  "acceptance": {
+    "name": "Acceptance",
+    "description": "In the tapestry of Chinese Traditional Medicine, men are revered as carriers of resilient Yang energy, embodying strength and vitality in harmony with the natural rhythms of life.",
+    "image": "/acceptance.png?height=1000&width=800",
+    "backgroundClass": "rgb(52 211 153 / var(--tw-bg-opacity, 1))",
+    "textClass": "text-emerald-700",
+    "character": "男生",
+    "chineseCharacters": {
+      "top": "男",
+      "bottom": "生"
+    },
+    "issues": [
+      {
+        "name": "Headache",
+        "icon": "/acceptance.png?height=40&width=40"
+      },
+      {
+        "name": "Insomnia",
+        "icon": "/acceptance.png?height=40&width=40"
+      },
+      {
+        "name": "Common Cold",
+        "icon": "/acceptance.png?height=40&width=40"
       }
     ]
   }

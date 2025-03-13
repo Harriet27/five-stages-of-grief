@@ -57,34 +57,34 @@ export default function HomePage() {
       >
         <div className="flex flex-col md:flex-row rounded-xl overflow-x-scroll">
           <CharacterDisplay
-            character="boy"
-            data={characterData.boy}
-            isSelected={selectedCharacter === "boy"}
-            onSelect={() => setSelectedCharacter(selectedCharacter === "boy" ? null : "boy")}
+            character="denial"
+            data={characterData.denial}
+            isSelected={selectedCharacter === "denial"}
+            onSelect={() => setSelectedCharacter(selectedCharacter === "denial" ? null : "denial")}
           />
           <CharacterDisplay
-            character="girl"
-            data={characterData.girl}
-            isSelected={selectedCharacter === "girl"}
-            onSelect={() => setSelectedCharacter(selectedCharacter === "girl" ? null : "girl")}
+            character="anger"
+            data={characterData.anger}
+            isSelected={selectedCharacter === "anger"}
+            onSelect={() => setSelectedCharacter(selectedCharacter === "anger" ? null : "anger")}
           />
           <CharacterDisplay
-            character="boy"
-            data={characterData.boy}
-            isSelected={selectedCharacter === "boy"}
-            onSelect={() => setSelectedCharacter(selectedCharacter === "boy" ? null : "boy")}
+            character="bargaining"
+            data={characterData.bargaining}
+            isSelected={selectedCharacter === "bargaining"}
+            onSelect={() => setSelectedCharacter(selectedCharacter === "bargaining" ? null : "bargaining")}
           />
           <CharacterDisplay
-            character="girl"
-            data={characterData.girl}
-            isSelected={selectedCharacter === "girl"}
-            onSelect={() => setSelectedCharacter(selectedCharacter === "girl" ? null : "girl")}
+            character="depresso"
+            data={characterData.depression}
+            isSelected={selectedCharacter === "depression"}
+            onSelect={() => setSelectedCharacter(selectedCharacter === "depression" ? null : "depression")}
           />
           <CharacterDisplay
-            character="girl"
-            data={characterData.girl}
-            isSelected={selectedCharacter === "girl"}
-            onSelect={() => setSelectedCharacter(selectedCharacter === "girl" ? null : "girl")}
+            character="acceptance"
+            data={characterData.acceptance}
+            isSelected={selectedCharacter === "acceptance"}
+            onSelect={() => setSelectedCharacter(selectedCharacter === "acceptance" ? null : "acceptance")}
           />
         </div>
 
