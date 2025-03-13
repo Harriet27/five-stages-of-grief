@@ -38,13 +38,13 @@ export default function CharacterDisplay({ character, data, isSelected, onSelect
 
       {isSelected && (
         <div className="mt-8 px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-emerald-700 mb-4">
+          <h1 className="text-4xl md:text-4xl font-bold text-grey-800 mb-4">
             {data.name}
           </h1>
           <p className="text-sm md:text-base text-gray-600 mb-6 max-w-2xl mx-auto">
             {data.description}
           </p>
-          <h2 className="text-lg md:text-xl font-medium text-gray-700 mb-4">
+          {/* <h2 className="text-lg md:text-xl font-medium text-gray-700 mb-4">
             Some common issues:
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
@@ -64,7 +64,7 @@ export default function CharacterDisplay({ character, data, isSelected, onSelect
                 </span>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       )}
     </div>
