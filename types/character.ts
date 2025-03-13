@@ -2,7 +2,7 @@ export interface CharacterData {
   name: string
   description: string
   image: string
-  backgroundClass: string
+  backgroundColor: string
   textClass: string
   character: string
   chineseCharacters: {

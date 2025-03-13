@@ -11,12 +11,12 @@ interface CharacterDisplayProps {
 export default function CharacterDisplay({ character, data, isSelected, onSelect }: CharacterDisplayProps) {
   return (
     <div
-      // className={`w-full md:w-1/2 ${data.backgroundClass} py-8 relative min-h-[500px] flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
-      //   isSelected ? "md:w-full" : ""
-      // }`}
-      style={{ backgroundColor: data.backgroundClass }}
+      style={{
+        backgroundColor: data.backgroundColor,
+      }}
       className={`w-full md:w-1/2 py-8 relative min-h-[500px] flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
-        isSelected ? "md:w-full" : ""
+        // isSelected ? "md:w-full" : ""
+        isSelected ? "md:w-[70%]" : ""
       }`}
     >
       <div
