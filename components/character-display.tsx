@@ -21,7 +21,7 @@ export default function CharacterDisplay({ character, data, isSelected, onSelect
     >
       <div
         className={`cursor-pointer transition-all duration-500 ease-in-out z-20 w-full h-full flex items-center justify-center ${
-          isSelected ? "scale-110" : "hover:scale-105"
+          isSelected ? "scale-135" : "hover:scale-110"
         }`}
         onClick={onSelect}
       >
